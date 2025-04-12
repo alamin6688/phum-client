@@ -17,3 +17,8 @@ export type TUserPath = {
   element?: ReactNode;
   children?: TUserPath[];
 };
+
+export type TUser = {
+  userId: string;
+  password: string;
+};
